@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+}
+
+.header,
+.firstblok {
+    background-color:#1F2937;    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.firstblok {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstblok h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.firstblok p {
+    font-size: 18px;
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    width: 90px;
+    height: 30px;
+    color: white;
+}
+
+.photo {
+    width: 300px;
+}
