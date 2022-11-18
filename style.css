@@ -3,17 +3,20 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     flex-direction: column;
+    flex: auto;
 }
 
 .header,
 .firstblok {
-    background-color:#1F2937;    
+    background-color:#1F2937;
 }
 
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .header p {
@@ -37,29 +40,47 @@ a {
 .firstblok {
     color: #f9faf8;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: initial;
+    padding: 50px 20% 5% 20%;
+}
+
+.maintext {
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .firstblok h1 {
     font-size: 48px;
     font-weight: bold;
     margin: 0;
+    overflow-wrap: break-all;
+    inline-size: 300px;
 }
 
 .firstblok p {
     font-size: 18px;
     margin: 0;
+    inline-size: 400px;
+    overflow-wrap: break-all;
 }
 
 button {
     background-color: #3882f6;
-    width: 90px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     color: white;
+    border-radius: 8px;
+    font-size: 1.3em;
+    margin-top: 1em;
+    
 }
 
 .photo {
-    width: 300px;
+    max-width: 350px;
+    max-height: 300px;
+    border-radius: 15px;
+    flex: auto;
+    flex-wrap: wrap;
 }
