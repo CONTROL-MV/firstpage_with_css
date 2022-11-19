@@ -7,7 +7,7 @@ body {
 }
 
 .header,
-.firstblok {
+.firstblock {
     background-color:#1F2937;
 }
 
@@ -37,7 +37,7 @@ a {
     color: #f9faf8;
 }
 
-.firstblok {
+.firstblock {
     color: #f9faf8;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@ a {
     inline-size: 300px;
 }
 
-.firstblok p {
+.firstblock p {
     font-size: 18px;
     margin: 0;
     inline-size: 400px;
@@ -83,4 +83,41 @@ button {
     border-radius: 15px;
     flex: auto;
     flex-wrap: wrap;
+}
+
+.secondblock {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.secondblock h2 {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.shop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items {
+    width: 170px;
+    height: 140px;
+    border-radius: 10px;
+    align-self: center; 
+    border: 4px solid #3882f6;   
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.card p {
+    text-align: center;
+    padding: 0px 15px 0px 15px;
 }
