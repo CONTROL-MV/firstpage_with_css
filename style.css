@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     flex: auto;
 }
-
+           /* HEADER */
 .header,
 .firstblock {
     background-color:#1F2937;
@@ -36,7 +36,7 @@ a {
     text-decoration: none;
     color: #f9faf8;
 }
-
+           /* FIRST BLOCK */
 .firstblock {
     color: #f9faf8;
     display: flex;
@@ -84,7 +84,7 @@ button {
     flex: auto;
     flex-wrap: wrap;
 }
-
+           /* SECOND BLOCK */
 .secondblock {
     display: flex;
     flex-direction: column;
@@ -120,4 +120,20 @@ button {
 .card p {
     text-align: center;
     padding: 0px 15px 0px 15px;
+}
+        /* THIRD BLOCK*/
+.thirdblock {
+    display: flex;
+    font-size: 26px;
+    font-style: italic;
+    background-color: #e5e7eb;
+    padding: 0 30% 0 30%;
+}
+
+.thirdblock blockquote {
+    font-weight: 250;
+}
+
+.thirdblock p {
+    text-align: right;
 }
