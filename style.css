@@ -1,9 +1,11 @@
 body {
     display: flex;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 10%;
+    padding-right: 10%;
     flex-direction: column;
     flex: auto;
+    width: auto;
+    height: auto;
 }
            /* HEADER */
 .header,
@@ -43,13 +45,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 50px 10% 5% 10%;
 }
 
 .maintext {
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .firstblok h1 {
@@ -83,7 +85,7 @@ button {
     max-height: 300px;
     border-radius: 15px;
     flex: auto;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
            /* SECOND BLOCK */
 .secondblock {
@@ -91,7 +93,7 @@ button {
     flex-direction: column;
     padding-left: 15%;
     padding-right: 15%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .secondblock h2 {
@@ -103,7 +105,7 @@ button {
 .shop {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding-bottom: 5%;
 }
 
@@ -145,7 +147,7 @@ button {
 .footer {
     display: flex;
     padding: 5% 20% 5% 20%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .attention {
@@ -157,7 +159,7 @@ button {
     justify-content: space-around;
     align-items: center;
     padding: 10px 50px 10px 50px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .action {
